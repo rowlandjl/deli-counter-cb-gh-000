@@ -6,7 +6,7 @@ end
 
 def take_a_number
 
-end 
+end
 
 def now_serving
 
