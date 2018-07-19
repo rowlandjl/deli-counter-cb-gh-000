@@ -1,7 +1,7 @@
 katz_deli = []
 
-def line(name)
-  if name.empty?
+def line(people)
+  if people.empty?
     puts "The line is currently empty."
   else
     current_line = []
