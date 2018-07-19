@@ -14,7 +14,8 @@ def line(people)
 end
 
 def take_a_number(people, name)
-  people << name 
+  people << name
+  people.last 
 end
 
 def now_serving
