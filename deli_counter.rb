@@ -18,6 +18,6 @@ def take_a_number(people, name)
   puts "Welcome, #{name}. You are number #{people.length} in line."
 end
 
-def now_serving
+def now_serving(people)
 
 end
