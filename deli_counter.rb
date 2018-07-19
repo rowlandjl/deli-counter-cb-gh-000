@@ -6,6 +6,8 @@ def line(name)
   else
     name.each_with_index do |name, position|
       current_line << "#{position + 1}. #{name}"
+    end
+    puts "The line is currently: #{current_line.join(" ")}"
   end
 
 end
