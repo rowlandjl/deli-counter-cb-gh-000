@@ -15,7 +15,7 @@ end
 
 def take_a_number(people, name)
   people << name
-  people.last 
+  puts people
 end
 
 def now_serving
