@@ -1,6 +1,7 @@
 katz_deli = []
 
-def line
+def line(name)
+  
 
 end
 
@@ -10,4 +11,4 @@ end
 
 def now_serving
 
-end 
+end
