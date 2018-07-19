@@ -21,8 +21,8 @@ end
 def now_serving(people)
   serving = people.shift
   if people.empty?
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{serving}."
-  end 
+  end
 end
