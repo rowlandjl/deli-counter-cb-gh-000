@@ -13,7 +13,7 @@ def line(people)
 
 end
 
-def take_a_number
+def take_a_number(people, name)
 
 end
 
