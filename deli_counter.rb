@@ -14,11 +14,7 @@ def line(people)
 end
 
 def take_a_number(people, name)
-  if !people.include?(name)
-    people << name
-  end
-  puts "Welcome, #{name}!"
-
+  people << name 
 end
 
 def now_serving
