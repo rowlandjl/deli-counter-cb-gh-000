@@ -15,7 +15,7 @@ end
 
 def take_a_number(people, name)
   people << name
-  puts "Welcome, #{name}. You are number #{people[name].index?}"
+  puts "Welcome, #{name}. You are number"
 end
 
 def now_serving
