@@ -19,5 +19,6 @@ def take_a_number(people, name)
 end
 
 def now_serving(people)
-  serving = people.shift 
+  serving = people.shift
+  puts "Currently serving #{serving}."
 end
